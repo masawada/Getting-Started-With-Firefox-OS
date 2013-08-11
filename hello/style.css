@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+  background: #FFFFFF;
+}
+
+#sayhello{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -24px;
+  margin-left: -140px;
+  width: 280px;
+  height: 48px;
+  background: #AA0000;
+  color: #FFFFFF;
+  font: normal 18px/48px sans-serif;
+  text-align: center;
+  border: 0px;
+  border-radius: 8px;
+}

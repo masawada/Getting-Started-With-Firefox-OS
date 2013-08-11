@@ -1,0 +1,10 @@
+{
+  "name": "Hello, world",
+  "description": "hello, world",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/icon128.png"
+  },
+  "orientation": "portrait",
+  "fullscreen": "true"
+}

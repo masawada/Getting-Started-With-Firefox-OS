@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>SimpleTwitter</title>
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/style.css">
+<body>
+<div id="main_panel" class="panel current">
+  <header>
+    <p id="start" class="button left">Stop</p>
+    <h1>Timeline</h1>
+    <p id="show_tweet_panel" class="button right">Tweet</p>
+  </header>
+  <ul id="timeline">
+    <!--<li id="status_000000000003" class="tweet">
+      <p class="tweet_icon"><img src="./me.jpg" alt="icon" class="tweet_icon_img"></p>
+      <p class="tweet_user">masawada</p>
+      <p class="tweet_text">マジで眠いあああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
+      <time datetime="" class="tweet_date">2013.07.05 15:32:52</time>
+    </li>-->
+  </ul>
+</div>
+<div id="tweet_panel" class="panel">
+  <header>
+    <p id="cancel" class="button left">Cancel</p>
+    <h1>Tweet</h1>
+    <p id="tweet" class="button right">Tweet</p>
+  </header>
+  <div id="tweet_text_box">
+    <textarea id="tweet_text"></textarea>
+  </div>
+  <script src="./js/jquery-2.0.2.min.js"></script>
+  <script src="./js/keys.js"></script>
+  <script src="./js/sha1.js"></script>
+  <script src="./js/util.js"></script>
+  <script src="./js/http.js"></script>
+  <script src="./js/oauth.js"></script>
+  <script src="./js/twitter.js"></script>
+  <script src="./js/view.js"></script>
+  <script src="./js/boot.js"></script>
+</div>
+</body>
+</html>

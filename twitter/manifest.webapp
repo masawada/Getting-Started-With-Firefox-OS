@@ -1,0 +1,13 @@
+{
+  "name": "SimpleTwitter",
+  "description": "Simple Twitter Client",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/icon128.png"
+  },
+  "orientation": "portrait",
+  "type": "privileged",
+  "permissions": {
+    "systemXHR": {}
+  }
+}
